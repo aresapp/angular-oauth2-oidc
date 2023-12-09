@@ -1,0 +1,1 @@
+{"version":3,"file":"resource-server-error-handler.mjs","sourceRoot":"","sources":["../../../../../lib/esm2022/interceptors/resource-server-error-handler.mjs"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,MAAM,CAAC;AAClC,MAAM,OAAO,+BAA+B;CAC3C;AACD,MAAM,OAAO,mCAAmC;IAC5C,WAAW,CAAC,GAAG;QACX,OAAO,UAAU,CAAC,GAAG,CAAC,CAAC;IAC3B,CAAC;CACJ;AACD,0lCAA0lC"}

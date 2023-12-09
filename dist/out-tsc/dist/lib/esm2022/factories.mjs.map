@@ -1,0 +1,1 @@
+{"version":3,"file":"factories.mjs","sourceRoot":"","sources":["../../../../lib/esm2022/factories.mjs"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AACxC,MAAM,UAAU,mBAAmB;IAC/B,OAAO,OAAO,CAAC;AACnB,CAAC;AACD,MAAM,UAAU,oBAAoB;IAChC,OAAO,OAAO,cAAc,KAAK,WAAW;QACxC,CAAC,CAAC,cAAc;QAChB,CAAC,CAAC,IAAI,aAAa,EAAE,CAAC;AAC9B,CAAC;AACD,02BAA02B"}

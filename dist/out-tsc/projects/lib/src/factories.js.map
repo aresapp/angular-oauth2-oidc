@@ -1,0 +1,1 @@
+{"version":3,"file":"factories.js","sourceRoot":"","sources":["../../../../../projects/lib/src/factories.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,SAAS,CAAC;AAExC,MAAM,UAAU,mBAAmB;IACjC,OAAO,OAAO,CAAC;AACjB,CAAC;AAED,MAAM,UAAU,oBAAoB;IAClC,OAAO,OAAO,cAAc,KAAK,WAAW;QAC1C,CAAC,CAAC,cAAc;QAChB,CAAC,CAAC,IAAI,aAAa,EAAE,CAAC;AAC1B,CAAC"}

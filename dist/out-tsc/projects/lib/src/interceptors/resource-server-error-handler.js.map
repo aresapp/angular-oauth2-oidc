@@ -1,0 +1,1 @@
+{"version":3,"file":"resource-server-error-handler.js","sourceRoot":"","sources":["../../../../../../projects/lib/src/interceptors/resource-server-error-handler.ts"],"names":[],"mappings":"AACA,OAAO,EAAc,UAAU,EAAE,MAAM,MAAM,CAAC;AAE9C,MAAM,OAAgB,+BAA+B;CAEpD;AAED,MAAM,OAAO,mCAAmC;IAG9C,WAAW,CAAC,GAAsB;QAChC,OAAO,UAAU,CAAC,GAAG,CAAC,CAAC;IACzB,CAAC;CACF"}

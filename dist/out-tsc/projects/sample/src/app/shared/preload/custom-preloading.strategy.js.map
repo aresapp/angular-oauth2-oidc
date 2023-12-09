@@ -1,0 +1,1 @@
+{"version":3,"file":"custom-preloading.strategy.js","sourceRoot":"","sources":["../../../../../../../../projects/sample/src/app/shared/preload/custom-preloading.strategy.ts"],"names":[],"mappings":"AAGA,MAAM,OAAO,wBAAwB;IACnC,OAAO,CAAC,KAAY,EAAE,EAAyB;QAC7C,4DAA4D;QAE5D,IAAI,IAAI,EAAE;YACR,OAAO,EAAE,EAAE,CAAC;SACb;IACH,CAAC;CACF"}

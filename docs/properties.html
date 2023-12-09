@@ -7,9 +7,9 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
-	   <link rel="stylesheet" href="../styles/style.css">
-        <link rel="stylesheet" href="../styles/dark.css">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+	   <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/dark.css">
     </head>
     <body>
           <script>
@@ -72,7 +72,7 @@
           </script>
 
         <div class="navbar navbar-default navbar-fixed-top d-block d-sm-none">
-            <a href="../" class="navbar-brand">angular-oauth2-oidc</a>
+            <a href="./" class="navbar-brand">angular-oauth2-oidc</a>
             <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
         </div>
 
@@ -86,7 +86,7 @@
                    <compodoc-menu mode="normal"></compodoc-menu>
                </div>
                <!-- START CONTENT -->
-               <div class="content additional-page">
+               <div class="content package-properties">
                    <div class="content-data">
 
 
@@ -104,48 +104,19 @@
 
 
 
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">Properties</li>
+    </ol>
+    <ul class="properties-list">
+        <li>
+            <b>Version</b> : 15.0.0</li>
+        <li>
+            <b>License</b> : MIT</li>
+    </ul>
 
 
 
 
-
-<h1>Original Config API</h1>
-<blockquote>
-<p>This describes the older config API which is nowadays only supported for the sake of backwards compatibility. </p>
-</blockquote>
-<p>To configure the library you just have to set some properties on startup. For this, the following sample uses the constructor of the AppComponent which is called before routing kicks in.</p>
-<p>Please note that the following sample uses the original config API. For information about the new config API have a look to the project&#39;s README above.</p>
-<b>Example :</b><div><pre class="line-numbers"><code class="language-TypeScript">&#64;Component({ ... })
-export class AppComponent {
-
-  constructor(private oauthService: OAuthService) {
-
-        // URL of the SPA to redirect the user to after login
-        this.oauthService.redirectUri = window.location.origin + &quot;/index.html&quot;;
-
-        // The SPA&#39;s id. The SPA is registerd with this id at the auth-server
-        this.oauthService.clientId = &quot;spa-demo&quot;;
-
-        // set the scope for the permissions the client should request
-        // The first three are defined by OIDC. The 4th is a usecase-specific one
-        this.oauthService.scope = &quot;openid profile email voucher&quot;;
-
-        // The name of the auth-server that has to be mentioned within the token
-        this.oauthService.issuer = &quot;https://steyer-identity-server.azurewebsites.net/identity&quot;;
-
-        // Load Discovery Document and then try to login the user
-        this.oauthService.loadDiscoveryDocument().then(() =&gt; {
-
-            // This method just tries to parse the token(s) within the url when
-            // the auth-server redirects the user back to the web-app
-            // It dosn&#39;t send the user the the login page
-            this.oauthService.tryLogin();
-
-        });
-
-  }
-
-}</code></pre></div><p>If you find yourself receiving errors related to discovery document validation, your ID Provider may have OAuth2 endpoints that do not use the <code>issuer</code> value as a consistent base URL. You can turn off strict validation of discovery document endpoints for this scenario. See <a href="https://manfredsteyer.github.io/angular-oauth2-oidc/docs/additional-documentation/discovery-document-validation.html">Discovery Document Validation</a> for details.</p>
 
                    </div><div class="search-results">
     <div class="has-results">
@@ -171,37 +142,37 @@ export class AppComponent {
           </label>
 
        <script>
-            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
-            var COMPODOC_CURRENT_PAGE_CONTEXT = 'additional-page';
-            var COMPODOC_CURRENT_PAGE_URL = 'original-config-api.html';
+            var COMPODOC_CURRENT_PAGE_DEPTH = 0;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'package-properties';
+            var COMPODOC_CURRENT_PAGE_URL = 'properties.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 
-       <script src="../js/libs/custom-elements.min.js"></script>
-       <script src="../js/libs/lit-html.js"></script>
+       <script src="./js/libs/custom-elements.min.js"></script>
+       <script src="./js/libs/lit-html.js"></script>
 
-       <script src="../js/menu-wc.js" defer></script>
-       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+       <script src="./js/menu-wc.js" defer></script>
+       <script nomodule src="./js/menu-wc_es5.js" defer></script>
 
-       <script src="../js/libs/bootstrap-native.js"></script>
+       <script src="./js/libs/bootstrap-native.js"></script>
 
-       <script src="../js/libs/es6-shim.min.js"></script>
-       <script src="../js/libs/EventDispatcher.js"></script>
-       <script src="../js/libs/promise.min.js"></script>
-       <script src="../js/libs/zepto.min.js"></script>
+       <script src="./js/libs/es6-shim.min.js"></script>
+       <script src="./js/libs/EventDispatcher.js"></script>
+       <script src="./js/libs/promise.min.js"></script>
+       <script src="./js/libs/zepto.min.js"></script>
 
-       <script src="../js/compodoc.js"></script>
+       <script src="./js/compodoc.js"></script>
 
-       <script src="../js/tabs.js"></script>
-       <script src="../js/menu.js"></script>
-       <script src="../js/libs/clipboard.min.js"></script>
-       <script src="../js/libs/prism.js"></script>
-       <script src="../js/sourceCode.js"></script>
-          <script src="../js/search/search.js"></script>
-          <script src="../js/search/lunr.min.js"></script>
-          <script src="../js/search/search-lunr.js"></script>
-          <script src="../js/search/search_index.js"></script>
-       <script src="../js/lazy-load-graphs.js"></script>
+       <script src="./js/tabs.js"></script>
+       <script src="./js/menu.js"></script>
+       <script src="./js/libs/clipboard.min.js"></script>
+       <script src="./js/libs/prism.js"></script>
+       <script src="./js/sourceCode.js"></script>
+          <script src="./js/search/search.js"></script>
+          <script src="./js/search/lunr.min.js"></script>
+          <script src="./js/search/search-lunr.js"></script>
+          <script src="./js/search/search_index.js"></script>
+       <script src="./js/lazy-load-graphs.js"></script>
 
 
     </body>
